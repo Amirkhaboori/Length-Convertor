@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<title>Kilometers / Miles Length Converter</title>
+<body>
+
+<h2>Length Converter</h2>
+<p>Type a value in the Kilometers field to convert the value to Miles:</p>
+
+<p>
+  <label>Kilometers</label>
+  <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="KMtoMI(this.value)" onchange="KMtoMI(this.value)">
+</p>
+<p>Miles: <span id="outputMiles"></span></p>
+
+<br></br>
+<hr>
+
+<h2>Length Converter</h2>
+<p>Type a value in the Miles field to convert the value to Kilometers:</p>
+
+<p>
+  <label>Miles</label>
+  <input id="inputMiles" type="number" placeholder="Miles" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Kilometers: <span id="outputKilometers"></span></p>
+
+<script src="../js/main.js"></script>
+
+
+</body>
+</html>
